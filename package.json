@@ -1,0 +1,26 @@
+{
+  "name": "exampleexpress",
+  "version": "1.0.1",
+  "description": "nodejs and express learning portal",
+  "main": "expressServer.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-favicon": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.2",
+    "jade": "^1.11.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Gayan Ranasinghe",
+  "license": "MIT"
+}
